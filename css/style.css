@@ -1,0 +1,169 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: white;
+    font-family: 'Ovo', serif;
+}
+
+ul,
+menu,
+dir {
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+
+/* Navigation Section */
+
+.top-navigation {
+    background-color: #0E56C1;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    border-bottom: 1px solid #737CA1;
+}
+
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 0px 15px;
+}
+
+.top-navigation .links {
+    float: right;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.03em;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 25px;
+    /*text-decoration: none; */
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    /* #838994; */
+}
+
+.top-navigation .links a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.top-navigation .home {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    float: left;
+    margin-top: 1.5rem;
+}
+
+
+/* Body Section */
+
+.body-section {
+    padding: 0 0.938rem;
+    margin: 0 auto;
+    min-width: 37.5rem;
+    text-align: center;
+}
+
+.body-section .mainImg {
+    margin-top: 10rem;
+    height: 30rem;
+    width: 50rem;
+}
+
+
+/* footer section */
+
+.social-icons ul {
+    list-style: none;
+}
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+hr {
+    border-width: 1px 0px 0px;
+    border-style: solid none none;
+    border-color: #eaebec;
+    margin: 1.313rem 0px;
+}
+
+.social .social-icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+
+h5 {
+    display: block;
+    font-size: 0.83em;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: normal;
+    font-family: 'Muli', sans-serif;
+}
+
+.social .twitter {
+    color: #55acee;
+}
+
+.social .facebook {
+    color: #4c66a4;
+}
+
+.social .instagram {
+    color: #3f729b;
+}
+
+@media only screen and (max-width: 500px) {
+    .body-section .mainImg {
+        margin-top: 10rem;
+        height: 350px;
+        width: 450px;
+        padding: 0;
+    }
+}
+
+
+/*
+.contact-form {
+    margin-top: 15em;
+} */
