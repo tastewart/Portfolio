@@ -30,10 +30,11 @@ dir {
     width: 100%;
     z-index: 9999;
     border-bottom: 1px solid #737CA1;
+    top: 0;
 }
 
 .top-navigation > .content {
-    width: 970px;
+    /* width: 970px; */
     height: 70px;
     margin: 0 auto;
 }
@@ -86,10 +87,17 @@ dir {
 /* Body Section */
 
 .body-section {
-    padding: 0 0.938rem;
+    padding: 5rem 0.938rem;
     margin: 0 auto;
     min-width: 37.5rem;
     text-align: center;
+    /*background-color: #147C90; */
+}
+
+.body-section h1 {
+    color: #0E56C1;
+    /* margin-top: 3em;
+    margin-bottom: -3em; */
 }
 
 .body-section .mainImg {
